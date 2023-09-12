@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "f953471f-a024-47d7-8725-0804b8450428",
+		"name": "Social Media Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"bos2s@yopmail.com\",\n    \"password\": \"ABC\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/users/login",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"boss@yopmail.com\",\n    \"password\": \"ABC\",\n    \"first_name\": \"Ur\",\n    \"last_name\": \"Boss\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/users/register",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Friend Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001/friend/friends",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"friend",
+						"friends"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Friend Request List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001/friend/friends-request",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"friend",
+						"friends-request"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Friend Request Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001/friend/friends-request/:email/:status",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"friend",
+						"friends-request",
+						":email",
+						":status"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": null
+						},
+						{
+							"key": "status",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Friends List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001/friend/friends",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"friend",
+						"friends"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

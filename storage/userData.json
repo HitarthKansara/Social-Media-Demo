@@ -1,0 +1,18 @@
+[
+  {
+    "email": "bos2s@yopmail.com",
+    "first_name": "Ur",
+    "last_name": "Boss",
+    "password": "$2b$10$CJqZWbhwHl9L2TZobVacRetw0VjaLEUGOa/t54bbMIBfFQEOM.2jK",
+    "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvczJzQHlvcG1haWwuY29tIiwiZmlyc3RfbmFtZSI6IlVyIiwibGFzdF9uYW1lIjoiQm9zcyIsImlhdCI6MTY5NDUyNjg0OCwiZXhwIjoxNjk0NjEzMjQ4fQ.IISUs7W0Hrr69JrKwmX3SMqNmWdR-rkjD0nOfmIzkN4",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvczJzQHlvcG1haWwuY29tIiwiZmlyc3RfbmFtZSI6IlVyIiwibGFzdF9uYW1lIjoiQm9zcyIsImlhdCI6MTY5NDUyNjg0OCwiZXhwIjoxNjk1ODIyODQ4fQ.O81xnJb324YU2970YP-wzzjPnLfwzWt-e-et6f6mcVs"
+  },
+  {
+    "email": "boss@yopmail.com",
+    "first_name": "Ur",
+    "last_name": "Boss",
+    "password": "$2b$10$qXuJRTFeKaxAAyzVdDL.V.EwJXTdz4UF42IOMSKAJ0a2ThQUzyojS",
+    "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvc3NAeW9wbWFpbC5jb20iLCJmaXJzdF9uYW1lIjoiVXIiLCJsYXN0X25hbWUiOiJCb3NzIiwiaWF0IjoxNjk0NTI2ODM4LCJleHAiOjE2OTQ2MTMyMzh9.rbE1xue4cufLJyTgJQgLwxzZ_KCoOEPLQbZrj8KWMiY",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvc3NAeW9wbWFpbC5jb20iLCJmaXJzdF9uYW1lIjoiVXIiLCJsYXN0X25hbWUiOiJCb3NzIiwiaWF0IjoxNjk0NTI2ODM4LCJleHAiOjE2OTU4MjI4Mzh9.7p_uKgpGSHGojGCOCB7f-1AWoT0kK8n9zSMR1Zps7BY"
+  }
+]
